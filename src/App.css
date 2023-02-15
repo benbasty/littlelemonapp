@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&family=Markazi+Text:wght@400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+  --title-font: 'Markazi Text', serif;
+
+  --title-display-size: 64px;
+  --title-display-weight: 500;
+
+  --sub-title-size: 58px;
+  --sub-title-weight: 500;
+
+  --display-regular-size: 40px;
+  --display-regular-weight: 400;
+
+  --text-font: 'Karla', sans-serif;
+
+  --text-lead-size: 18px;
+  --text-lead-weight: 500;
+
+  --section-title-size: 20px;
+  --section-title-weight: 800;
+
+  --section-category-size: 16px;
+  --section-category-weight: 800;
+
+  --card-title-size: 18px;
+  --card-title-weight: 700;
+
+  --paragraph-text-size: 16px;
+  --paragraph-text-weight: 400;
+  --paragraph-line-height: 1.5;
+
+  --highlight-text-size: 16px;
+  --highlight-text-weight: 500;
+
+  --color-primary-green: #495E57;
+  --color-primary-yellow: #F4CE14;
+  --color-secondary-orange: #EE9972;
+  --color-secondary-light-orange: #FBDABB;
+  --color-secondary-light-grey: #EDEFEE;
+  --color-secondary-dark-grey: #333333;
+
+  --color-dark: #000000;
+  --color-light: #ffffff;
+
+  --transition: all 400ms ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section {
+  padding-top: 2.5rem;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-dark);
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-dark);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-primary-green);
+  color: var(--color-light);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary-yellow);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+a {
+  color: var(--color-dark);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+/* nav styling */
+nav {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 2rem;
+  margin: 15px 0;
+
+}
+nav > img {
+  width: 80%;
+}
+nav > ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-direction: row;
+  gap: 2rem;
+  padding: 14px 0;
 }
