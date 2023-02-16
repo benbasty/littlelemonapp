@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.svg'
 const nav = () => {
   return (
-    <nav className='container'>
+    <nav>
         <img src={logo} alt='logo'/>
         <ul>
             <li><a href='#home'>Home</a></li>

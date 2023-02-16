@@ -60,11 +60,11 @@ html {
 }
 
 .container {
-  width: 90%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 60%;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 section {
@@ -104,20 +104,73 @@ a {
   cursor: pointer;
 }
 
-/* nav styling */
-nav {
+/* nav and footer styling */
+nav, footer {
   display: grid;
   grid-template-columns: 20% 80%;
   grid-gap: 2rem;
   margin: 15px 0;
 
 }
-nav > img {
-  width: 80%;
+nav > img, footer > img {
+  width: 100%;
 }
-nav > ul {
+nav > ul, footer > .menu-footer {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  padding: 14px 0;
+  padding-top: 11px;
+}
+
+.menu-footer > div {
+  margin-right: 60px;
+}
+
+.menu-footer .navigation h5 {
+  margin-bottom: 5px;
+}
+
+.menu-footer .contact h5, .menu-footer .social-media-links h5 {
+  margin-bottom: 22px;
+}
+
+/* media queries */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  nav > ul {
+    gap: 3rem;
+    margin-top: 8px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  footer > .menu-footer {
+    gap: 5rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  nav ul li, footer > .menu-footer ul li {
+    font-size: 10px;
+  }
+  footer > .menu-footer {
+    gap: 2.8rem;
+  }
+
+  nav > ul, footer > .menu-footer {
+    padding-top: 8px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* hamburger menu later */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* hamburger menu later */
 }
