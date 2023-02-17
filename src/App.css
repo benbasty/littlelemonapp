@@ -84,7 +84,7 @@ section {
 }
 
 .btn:hover {
-  background: var(--color-primary-green);
+  background: var(--color-secondary-dark-grey);
   color: var(--color-light);
   border-color: transparent;
 }

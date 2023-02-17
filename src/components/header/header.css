@@ -35,8 +35,9 @@ header {
 }
 
 .hero-infos a {
+    font-size: var(--section-category-size);
     font-family: var(--text-font);
-    font-weight: var(--sub-title-weight);
+    font-weight: var(--section-category-weight);
 }
 
 .hero-image img {
