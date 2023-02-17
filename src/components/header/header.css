@@ -1,0 +1,48 @@
+/* hero header section */
+header {
+    background-color: var(--color-primary-green);
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 60% 25%;
+    grid-gap: 15%;
+}
+
+.hero-infos h1 {
+    font-family: var(--text-font);
+    font-size: var(--title-display-size);
+    color: var(--color-primary-yellow);
+    font-weight: var(--section-title-weight);
+}
+
+.hero-infos h5 {
+    font-family: var(--text-font);
+    font-size: var(--highlight-text-size);
+    color: var(--color-secondary-light-grey);
+    font-weight: var(--section-title-weight);
+    margin-left: 5px;
+}
+
+.hero-infos p {
+    margin-left: 5px;
+    padding: 25px 0;
+    max-width: 40ch;
+    font-family: var(--text-font);
+    font-size: var(--text-lead-size);
+    color: var(--color-secondary-light-grey);
+    font-weight: var(--display-regular-weight);
+}
+
+.hero-infos a {
+    font-family: var(--text-font);
+    font-weight: var(--sub-title-weight);
+}
+
+.hero-image img {
+    border-radius: 15px;
+    position: relative;
+    bottom: -2rem;
+}
+
+
