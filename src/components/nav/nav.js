@@ -1,9 +1,10 @@
 import React from 'react'
 import logo from '../../assets/logo.svg'
 import './nav.css';
+
 const nav = () => {
   return (
-    <nav class="container">
+      <nav class="container">
         <img src={logo} alt='logo'/>
         <ul>
             <li><a href='#home'>Home</a></li>
@@ -13,7 +14,7 @@ const nav = () => {
             <li><a href='#order-online'>Order Online</a></li>
             <li><a href='#login'>Login</a></li>
         </ul>
-    </nav>
+      </nav>
   )
 }
 
