@@ -7,7 +7,7 @@ import {MdDeliveryDining} from 'react-icons/md';
 
 const main = () => {
   return (
-    <main class="container">
+    <main className="container">
         <section className='specials'>
             <div className='specials-header'>
               <h2>Specials</h2>

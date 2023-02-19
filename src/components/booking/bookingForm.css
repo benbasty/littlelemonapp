@@ -1,0 +1,49 @@
+form {
+    display: grid;
+    max-width: 400px;
+    gap: 20px;
+    margin: 0 auto;
+    grid-template-rows: auto;
+    color: var(--color-primary-green);
+    background-color: var(--color-secondary-light-grey);
+    padding: 1.5rem 2.5rem;
+}
+
+.get-in-touch {
+    font-size: var(--text-lead-size);
+    font-family: var(--text-font);
+    font-weight: var(--title-display-weight);
+    margin-left: 0.7rem;
+}
+
+.date, .time, .guests, .occasion {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.date label, .time label, .guests label, .occasion label,
+.date input, .time select, .guests input, .occasion select  {
+    border: 1px solid transparent;
+    background-color: var(--color-secondary-light-orange);
+    border-radius: 15px;
+    padding: 0.7rem;
+    width: 50%;
+    font-family: var(--text-font);
+    font-size: 14px;
+}
+
+input#res-date, select#res-time, select#occasion {
+    color: var(--color-primary-green);
+}
+
+form input {
+    margin: 0 auto;
+}
+
+.btn-submit {
+    width: 50%;
+    background-color: var(--color-secondary-light-orange);
+    color: var(--color-primary-green);
+    border-radius: 15px;
+}
+
