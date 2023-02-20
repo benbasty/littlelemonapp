@@ -1,21 +1,25 @@
 import './App.css'
-import Header from './components/header/header'
-import Main from './components/main/main'
-import Footer from './components/footer/footer'
 import Nav from './components/nav/nav'
-// import { Routes, Route } from 'react-router-dom';
-// import BookingPage from './components/booking/BookingPage'
+import LandingPage from './components/landingpage/landingPage';
+import About from './components/about/about';
+import Menu from './components/menu/menu';
+import BookingPage from './components/booking/BookingPage';
+import OrderOnline from './components/onlineorder/onlineorder';
+import Login from './components/login/login';
+import { Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
     <>
       <Nav />
-      <Header />
-      <Main />
-      {/* <BookingPage /> */}
-      <Footer />
-      {/* <Routes>
-        <Route path='/main' element = {<Main /> }></Route>
-      </Routes> */}
+      <Routes>
+        <Route path='/' element = {<LandingPage/> }/>
+        <Route path='/about' element = {<About/> }/>
+        <Route path='/menu' element = {<Menu/> }/>
+        <Route path='/booking' element = {<BookingPage /> } />
+        <Route path='/order-online' element = {<OrderOnline/> }/>
+        <Route path='/login' element = {<Login/> }/>
+      </Routes>
     </>
   )
 }

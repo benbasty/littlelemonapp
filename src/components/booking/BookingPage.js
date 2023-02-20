@@ -1,9 +1,10 @@
 import React from 'react'
 import BookingForm from './BookingForm'
+import './bookingpage.css';
 
 const BookingPage = () => {
   return (
-    <div>
+    <div className='booking-page'>
       <BookingForm />
     </div>
   )

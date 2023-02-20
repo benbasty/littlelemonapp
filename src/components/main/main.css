@@ -75,7 +75,7 @@
 
 .testimonials {
     background-color: var(--color-secondary-light-grey);
-    margin: 2rem 0;
+    margin-top: 2rem;
 }
 .testimonials-container  {
     display: flex;
@@ -138,7 +138,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    height: 75vh;
+    height: 55vh;
 }
 
 .about-description h1 {
@@ -185,5 +185,4 @@
 
 .about-images img:nth-child(2) {
     z-index: 2;
-    
 }
