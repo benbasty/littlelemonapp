@@ -4,11 +4,17 @@ import greeksalad from '../../assets/greeksalad.jpg';
 import bruchetta from '../../assets/bruchetta.svg';
 import lemondessert from '../../assets/lemondessert.jpg'
 import {MdDeliveryDining} from 'react-icons/md';
-
+import avatar1 from '../../assets/avatar1.jpg';
+import avatar2 from '../../assets/avatar2.jpg';
+import avatar3 from '../../assets/avatar3.jpg';
+import avatar4 from '../../assets/avatar4.jpg';
+import {RiStarSFill} from 'react-icons/ri';
+import food1 from '../../assets/restaurantfood1.jpeg';
+import food2 from '../../assets/restaurantfood2.jpeg'
 const main = () => {
   return (
-    <main className="container">
-        <section className='specials'>
+    <main className="">
+        <section className='specials container'>
             <div className='specials-header'>
               <h2>Specials</h2>
               <a href='#online-menu' className='btn'>Online Menu</a>
@@ -65,10 +71,57 @@ const main = () => {
             </div>
         </section>
         <section className='testimonials'>
-            Testimonials
+          <div className='testimonials-container container'>
+          <h1>Testimonials</h1>
+            <div className='ratings'>
+              <div className='rating'>
+                <h5 className='stars'><RiStarSFill/><RiStarSFill/><RiStarSFill/><RiStarSFill/><RiStarSFill/></h5>
+                <div className='avatar'>
+                  <img src = {avatar1} alt="avatar"/>
+                  <h5>Anna</h5>
+                </div>
+                <p>I recommend you to use LittleLemon. I go there all the time.</p>
+              </div>
+              <div className='rating'>
+              <h5 className='stars'><RiStarSFill/><RiStarSFill/><RiStarSFill/><RiStarSFill/></h5>
+                <div className='avatar'>
+                  <img src = {avatar2} alt="avatar"/>
+                  <h5>John</h5>
+                </div>
+                <p>Amazing customer service. I needed help and they helped me fix it.</p>
+              </div>
+              <div className='rating'>
+              <h5 className='stars'><RiStarSFill/><RiStarSFill/><RiStarSFill/><RiStarSFill/><RiStarSFill/></h5>
+                <div className='avatar'>
+                  <img src = {avatar3} alt="avatar"/>
+                  <h5>Elias</h5>
+                </div>
+                <p>Love the food. incredible quality and delicious food everytime i go there.</p>
+              </div>
+              <div className='rating'>
+              <h5 className='stars'><RiStarSFill/><RiStarSFill/><RiStarSFill/><RiStarSFill/></h5>
+                <div className='avatar'>
+                  <img src = {avatar4} alt="avatar"/>
+                  <h5>Fatima</h5>
+                </div>
+                <p>Great prices and afordable and fast delivery. I recommend.</p>
+              </div>
+            </div>
+          </div>
+
         </section>
         <section className='about'>
-            About
+          <div className='about-container container'>
+            <div className='about-description'>
+                <h1>Little Lemon</h1>
+                <h5>Chicago</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div className='about-images'>
+                <img src={food1} alt='about-img'/>
+                <img src={food2} alt='about-img'/>
+            </div>
+          </div>
         </section>
     </main>
   )

@@ -71,3 +71,119 @@
     font-weight: var(--card-title-weight);
     color: var(--color-secondary-dark-grey);
 }
+
+
+.testimonials {
+    background-color: var(--color-secondary-light-grey);
+    margin: 2rem 0;
+}
+.testimonials-container  {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.testimonials-container h1 {
+    margin: 3rem auto;
+    font-family: var(--title-font);
+    font-size: var(--display-regular-size);
+    font-weight: var(--title-display-weight);
+    color: var(--color-secondary-dark-grey);
+}
+
+.ratings {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.rating {
+    background-color: var(--color-light);
+    padding: 1.5rem 1rem;
+}
+
+.stars {
+    color: var(--color-primary-yellow);
+}
+.avatar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+
+.avatar img {
+    border-radius: 10px;
+}
+
+.avatar h5 {
+    margin: auto 0;
+    font-family: var(--title-font);
+    font-size: var(--paragraph-text-size);
+    font-weight: var(--card-title-weight);
+}
+
+.rating p {
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: var(--paragraph-text-weight);
+    line-height: var(--paragraph-line-height);
+}
+
+.about {
+    background-color: var(--color-secondary-orange);
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    height: 75vh;
+}
+
+.about-description h1 {
+    font-family: var(--text-font);
+    font-size: var(--title-display-size);
+    color: var(--color-primary-yellow);
+    font-weight: var(--section-title-weight);
+}
+
+.about-description h5 {
+    font-family: var(--text-font);
+    font-size: var(--highlight-text-size);
+    color: var(--color-secondary-light-grey);
+    font-weight: var(--section-title-weight);
+    margin-left: 5px;
+}
+
+.about-description p {
+    margin-left: 5px;
+    padding: 25px 0;
+    max-width: 40ch;
+    font-family: var(--text-font);
+    font-size: var(--text-lead-size);
+    color: var(--color-secondary-light-grey);
+    font-weight: var(--display-regular-weight);
+}
+
+.about-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-images img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-images img:first-child {
+    position: relative;
+    bottom: -5rem;
+    right: -5rem;
+    z-index: 1;
+}
+
+.about-images img:nth-child(2) {
+    z-index: 2;
+    
+}
