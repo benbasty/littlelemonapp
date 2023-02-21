@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.css';
 import greeksalad from '../../assets/greeksalad.jpg';
-import bruchetta from '../../assets/bruchetta.svg';
+import bruschetta from '../../assets/bruschetta.jpeg';
 import lemondessert from '../../assets/lemondessert.jpg'
 import {MdDeliveryDining} from 'react-icons/md';
 import avatar1 from '../../assets/avatar1.jpg';
@@ -37,10 +37,10 @@ const main = () => {
                 </div>
               </div>
               <div className='specials-card'>
-                <img src={bruchetta} alt='bruchetta'/>
+                <img src={bruschetta} alt='bruschetta'/>
                 <div className='description'>
                   <div className='item'>
-                    <h4>Bruchetta</h4>
+                    <h4>Bruschetta</h4>
                     <h4>$ 5.99</h4>
                   </div>
                   <p>
