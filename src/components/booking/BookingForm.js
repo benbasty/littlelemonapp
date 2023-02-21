@@ -6,6 +6,11 @@ const BookingForm = () => {
   const [time, setTime] = useState("");
   const [guests, setGuests] = useState(1);
   const [occasion, setOccasion] = useState("");
+  const [availableTimes] = useState(
+    [
+      "17:00", "18:00", "19:00", "20:00", "21:00", "22:00"
+    ]
+  )
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -30,12 +35,11 @@ const BookingForm = () => {
           <div className='time'>
             <label htmlFor="res-time">Choose time</label>
               <select id="res-time" name='res-time' value={time} onChange={e => setTime(e.target.value)}>
-                  <option>17:00</option>
-                  <option>18:00</option>
-                  <option>19:00</option>
-                  <option>20:00</option>
-                  <option>21:00</option>
-                  <option>22:00</option>
+                {availableTimes.map((time) => {
+                  return(
+                    <option>{time}</option>
+                  )
+                })}
               </select>
           </div>
 
