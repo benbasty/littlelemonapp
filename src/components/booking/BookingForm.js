@@ -1,7 +1,7 @@
 import React, {useState } from 'react'
 import './bookingForm.css'
 
-const BookingForm = () => {
+const BookingForm = (props) => {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
   const [guests, setGuests] = useState(1);
@@ -18,14 +18,14 @@ const BookingForm = () => {
     setTime("");
     setGuests("");
     setOccasion("");
-    console.log("form submitted");
+    props.onSubmit(time);
   }
 
   return (
     <div className='booking-form container'>
         <form onSubmit={handleSubmit}>
           <div className='get-in-touch'>
-            <h4>Get In Touch</h4>
+            <h4>Reserve Your Table Now</h4>
           </div>
           <div className='date'>
             <label htmlFor="res-date">Choose date</label>

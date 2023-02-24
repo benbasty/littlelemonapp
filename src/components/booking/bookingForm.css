@@ -4,7 +4,7 @@ form {
     gap: 20px;
     margin: 0 auto;
     grid-template-rows: auto;
-    color: var(--color-primary-green);
+    color: var(--color-dark);
     background-color: var(--color-secondary-light-grey);
     padding: 1.5rem 2.5rem;
 }
@@ -24,7 +24,7 @@ form {
 .date label, .time label, .guests label, .occasion label,
 .date input, .time select, .guests input, .occasion select  {
     border: 1px solid transparent;
-    background-color: var(--color-secondary-light-orange);
+    background-color: var(--color-secondary-orange);
     border-radius: 15px;
     padding: 0.7rem;
     width: 50%;
@@ -33,7 +33,7 @@ form {
 }
 
 input#res-date, select#res-time, select#occasion {
-    color: var(--color-primary-green);
+    color: var(--color-dark);
 }
 
 form input {
@@ -41,9 +41,9 @@ form input {
 }
 
 .btn-submit {
-    width: 50%;
-    background-color: var(--color-secondary-light-orange);
-    color: var(--color-primary-green);
+    width: 60%;
+    background-color: var(--color-primary-yellow);
+    color: var(--color-dark);
     border-radius: 15px;
 }
 
