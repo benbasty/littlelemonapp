@@ -1,0 +1,49 @@
+.onlineorder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.3px dashed var(--color-dark);
+}
+
+.onlineorder h1 {
+    color: var(--color-primary-green);
+    font-weight: var(--section-category-weight);
+    margin: 0.5rem 0;
+    font-family: var(--title-font);
+    font-size: var(--display-regular-size);
+}
+
+.onlineorder span {
+    width: 10%;
+    border: 1px solid;
+    margin-bottom: 0.5rem;
+}
+
+.onlineorder p {
+    font-family: var(--text-font);
+    font-size: var(--paragraph-text-size);
+    font-weight: var(--paragraph-text-weight);
+    line-height: var(--paragraph-line-height);
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+
+.how-order-online {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+}
+
+.how-order-online svg {
+    font-size: 5rem;
+    opacity: 0.7;
+}
+
+.how-order-online p {
+    font-family: var(--text-font);
+    font-size: 14px;
+    font-weight: var(--paragraph-text-weight);
+    line-height: var(--paragraph-line-height);
+}

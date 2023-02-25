@@ -1,0 +1,24 @@
+.aboutpage {
+    border-top: 0.1px dashed var(--color-secondary-dark-grey);
+}
+.aboutpage h1 {
+    font-size: var(--title-display-size);
+    font-weight: var(--title-display-weight);
+    font-family: var(--title-font);
+    margin-top: 3rem;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 3rem;
+    gap: 1rem;
+}
+
+.about-description p {
+    font-size: var(--paragraph-text-size);
+    font-weight: var(--paragraph-text-weight);
+    font-family: var(--text-font);
+    line-height: var(--paragraph-line-height);
+    color: var(--color-secondary-dark-grey);
+}
