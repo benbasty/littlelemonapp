@@ -6,7 +6,7 @@ import About from './components/about/about';
 import Menu from './components/menu/menu';
 import BookingPage from './components/booking/BookingPage';
 import OrderOnline from './components/onlineorder/onlineorder';
-import Login from './components/login/login';
+import Login from './components/login/loginpage';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {

@@ -1,0 +1,9 @@
+.login-page {
+    height: 95vh;
+    background-color: var(--color-secondary-orange);
+    padding: 10rem;
+}
+
+/* .login-form {
+    margin: 0 auto;
+} */

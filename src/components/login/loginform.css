@@ -1,0 +1,45 @@
+.login-form form {
+    background-color: var(--color-light);
+    border-radius: 15px;
+}
+.login-form form h1 {
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: var(--sub-title-size);
+    font-weight: var(--card-title-weight);
+    border-bottom: 0.1px dashed var(--color-dark);
+}
+
+.login-form form .username input, .login-form form .password input {
+    width: 100%;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.5px solid;
+    font-family: var(--text-font);
+    font-size: var(--paragraph-text-size);
+}
+
+.login-form form p:first-of-type {
+    font-family: var(--text-font);
+    font-size: var(--paragraph-text-size);
+    font-weight: var(--paragraph-text-weight);
+    line-height: var(--paragraph-line-height);
+    color: var(--color-secondary-dark-grey);
+}
+
+.btnform-submit {
+    width: 100%;
+    color: var(--color-light);
+    background-color: #24a0ed;
+    border-radius: 20px;
+    font-family: var(--text-font);
+    font-weight: var(--card-title-weight);
+}
+
+.signup {
+    text-align: center;
+    font-family: var(--text-font);
+    font-size: var(--paragraph-text-size);
+    font-weight: var(--paragraph-text-weight);
+    line-height: var(--paragraph-line-height);
+    color: var(--color-secondary-dark-grey);
+}
