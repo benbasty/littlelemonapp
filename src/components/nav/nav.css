@@ -21,6 +21,13 @@ nav ul a {
   font-weight: var(--text-lead-weight);
 }
 
+@media screen and (max-width: 912px) {
+  nav ul {
+    gap: 2.5rem;
+    margin-top: 10px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   nav ul {
     gap: 2.5rem;
@@ -30,11 +37,27 @@ nav ul a {
 
 @media screen and (max-width:540px) {
   nav {
+    grid-gap: 0.7rem;
+  }
+  nav ul {
+    gap: 0.8rem;
+    margin-top: 0;
+  }
+  nav ul a {
+    font-weight: var(--display-regular-weight);
+  }
+}
+
+@media screen and (max-width:512px) {
+  nav {
     grid-gap: 0.5rem;
   }
   nav ul {
-    gap: 0.4rem;
-    margin-top: 0;
+    gap: 0.6rem;
+    margin-top: 1px;
+  }
+  nav ul a {
+    font-size: 14px;
   }
 }
 
@@ -49,5 +72,30 @@ nav ul a {
   nav ul a {
     font-weight: var(--display-regular-weight);
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  nav ul a {
+    font-weight: var(--display-regular-weight);
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  nav ul a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:280px) {
+  nav img {
+    display: none;
+  }
+  nav {
+    grid-template-columns: none;
+  }
+  nav ul {
+    gap: 0.6rem;
   }
 }

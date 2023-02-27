@@ -61,6 +61,16 @@ header {
     }
 }
 
+@media screen and (max-width:540px) {
+    .hero {
+        grid-template-columns: none;
+        gap: 1rem;
+    }
+    .hero-image img {
+        bottom: -3rem;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .hero {
         grid-template-columns: none;
