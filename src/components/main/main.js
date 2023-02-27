@@ -41,7 +41,7 @@ const main = () => {
                 <div className='description'>
                   <div className='item'>
                     <h4>Bruschetta</h4>
-                    <h4>$ 5.99</h4>
+                    <h4>$5.99</h4>
                   </div>
                   <p>
                   Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
@@ -57,7 +57,7 @@ const main = () => {
                 <div className='description'>
                   <div className='item'>
                     <h4>Lemon Dessert</h4>
-                    <h4>$ 5.00</h4>
+                    <h4>$5.00</h4>
                   </div>
                   <p>
                     This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.

@@ -46,4 +46,28 @@ header {
     bottom: -2rem;
 }
 
+@media screen and (max-width: 768px) {
+    .hero {
+        grid-template-columns: 50% 35%;
+    }
+    .hero-infos h1 {
+        font-size: 50px;
+    }
+    .hero-infos p {
+        font-size: var(--paragraph-text-size);
+    }
+    .hero-image img {
+        bottom: -1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        grid-template-columns: none;
+        gap: 1rem;
+    }
+    .hero-image img {
+        bottom: -3rem;
+    }
+}
 

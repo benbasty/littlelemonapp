@@ -47,3 +47,40 @@ footer {
     font-family: var(--text-font);
     font-size: 12px;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  .footer-container{
+    grid-template-columns: none;
+  }
+  .footer-image {
+    display: none;
+  }
+  .menu-footer {
+    display: flex;
+    gap: 3rem;
+  }
+
+}
+
+@media screen and (max-width:480px) {
+  .menu-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-footer .contact, .menu-footer .social-media-links {
+    margin-left: 0;
+  }
+  .menu-footer > div {
+    margin-right: 0;
+  }
+  .menu-footer h5 {
+      font-size: var(--display-regular-size);
+  }
+  .menu-footer ul {
+      font-size: var(--text-lead-size);
+  }
+}

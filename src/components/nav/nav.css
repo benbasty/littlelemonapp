@@ -20,3 +20,34 @@ nav ul a {
   font-size: var(--section-category-size);
   font-weight: var(--text-lead-weight);
 }
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    gap: 2.5rem;
+    margin-top: 6px;
+  }
+}
+
+@media screen and (max-width:540px) {
+  nav {
+    grid-gap: 0.5rem;
+  }
+  nav ul {
+    gap: 0.4rem;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:480px) {
+  nav {
+    grid-gap: 1rem;
+  }
+  nav ul {
+    gap: 0.6rem;
+    margin-top: 0;
+  }
+  nav ul a {
+    font-weight: var(--display-regular-weight);
+    font-size: 14px;
+  }
+}
