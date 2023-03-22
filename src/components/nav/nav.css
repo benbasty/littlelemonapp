@@ -30,19 +30,83 @@ nav ul a:hover {
   color: var(--color-primary-yellow);
 }
 
+.nav-btn {
+  cursor: pointer;
+  padding: 5px;
+  background: transparent;
+  border: none;
+  outline: none;
+  opacity: 0;
+  font-size: 1.9rem;
+  visibility: hidden;
+  display: none;
+}
+
+@media screen and (max-width: 1240px) {
+  nav img {
+    width: 130px;
+    height: 50px;
+  }
+
+  nav ul {
+    gap: 4rem;
+  }
+  nav ul a {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 912px) {
   nav ul {
     gap: 2.5rem;
-    /* margin-top: 10px; */
   }
 }
 
 @media screen and (max-width: 768px) {
-  nav ul {
+  /* nav ul {
     gap: 2.5rem;
-    /* margin-top: 6px; */
+  } */
+  nav ul a {
+    font-size: 13px;
   }
 }
+
+@media screen and (max-width:700px) {
+  .nav-btn {
+    visibility: visible;
+		opacity: 1;
+		position: fixed;
+		right: 2rem;
+    display: inline;
+  }
+  .nav-close {
+		position: absolute;
+		top: 0.6rem;
+		right: 1.8rem;
+    z-index: 3;
+	}
+  nav ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+		height: 100%;
+		width: 100%;
+    display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+    gap: 1.5rem;
+		background-color: var(--color-secondary-light-grey);
+		transition: 0.5s;
+		transform: translateY(-170vh);
+    z-index: 1;
+  }
+
+  nav .responsive_navbar {
+		transform: none;
+	}
+}
+
 
 @media screen and (max-width:540px) {
   nav {

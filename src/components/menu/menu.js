@@ -4,6 +4,7 @@ import bruschetta from '../../assets/bruschetta.jpeg';
 import lemondessert from '../../assets/lemondessert.jpg'
 import {MdDeliveryDining} from 'react-icons/md';
 import './menu.css';
+import { Link } from 'react-router-dom';
 
 const menu = () => {
   return (
@@ -25,7 +26,7 @@ const menu = () => {
                     The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                  <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>
@@ -41,7 +42,7 @@ const menu = () => {
                   Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                  <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>
@@ -57,7 +58,7 @@ const menu = () => {
                     This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                  <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>
@@ -75,7 +76,7 @@ const menu = () => {
                     The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                  <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>
@@ -91,7 +92,7 @@ const menu = () => {
                   Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                  <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>
@@ -107,7 +108,7 @@ const menu = () => {
                     This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                  <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>
@@ -125,7 +126,7 @@ const menu = () => {
                     The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                  <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>
@@ -141,7 +142,7 @@ const menu = () => {
                   Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                  <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>
@@ -157,7 +158,7 @@ const menu = () => {
                     This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                  <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>

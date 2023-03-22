@@ -11,13 +11,15 @@ import avatar4 from '../../assets/avatar4.jpg';
 import {RiStarSFill} from 'react-icons/ri';
 import food1 from '../../assets/potatoesdish.jpg';
 import food2 from '../../assets/potatoesfood.jpg';
+import { Link } from 'react-router-dom';
+
 const main = () => {
   return (
     <main className="">
         <section className='specials container'>
             <div className='specials-header'>
               <h2>Specials</h2>
-              <a href='#online-menu' className='btn'>Online Menu</a>
+              <Link to='/patatos/order-online' className='btn'>Online Menu</Link>
             </div>
             <div className='specials-cards'>
               <div className='specials-card'>
@@ -31,7 +33,7 @@ const main = () => {
                     The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                  <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>
@@ -47,7 +49,7 @@ const main = () => {
                   Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                    <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>
@@ -63,7 +65,7 @@ const main = () => {
                     This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.
                   </p>
                   <div className='order'>
-                    <h5>Order a delivery</h5>
+                    <Link to='/patatos/order-online'><h5>Order a delivery</h5></Link>
                     <MdDeliveryDining />
                   </div>
                 </div>

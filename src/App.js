@@ -14,12 +14,12 @@ function App() {
     <>
       <Nav />
       <Routes>
-        <Route path='/' element = {<LandingPage/> }/>
-        <Route path='/about' element = {<About/> }/>
-        <Route path='/menu' element = {<Menu/> }/>
-        <Route path='/booking' element = {<BookingPage /> } />
-        <Route path='/order-online' element = {<OrderOnline/> }/>
-        <Route path='/login' element = {<Login/> }/>
+        <Route path='/patatos' element = {<LandingPage/> }/>
+        <Route path='/patatos/about' element = {<About/> }/>
+        <Route path='/patatos/menu' element = {<Menu/> }/>
+        <Route path='/patatos/booking' element = {<BookingPage /> } />
+        <Route path='/patatos/order-online' element = {<OrderOnline/> }/>
+        <Route path='/patatos/login' element = {<Login/> }/>
       </Routes>
       <Footer />
     </>
