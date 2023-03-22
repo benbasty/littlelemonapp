@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
 nav {
   display: grid;
   grid-template-columns: 20% 80%;
@@ -5,33 +6,41 @@ nav {
   margin: 10px 0;
 }
 nav > img {
-  width: 100%;
+  width: 150px;
+  height: 50px;
 }
 
 nav ul {
   display: flex;
   gap: 4.5rem;
-  margin-top: 13px;
+  align-items: center;
+  /* margin-top: 13px; */
 }
 
 nav ul a {
   color: var(--color-dark);
-  font-family: var(--title-font);
+  font-family: 'Oswald', sans-serif;
   font-size: var(--section-category-size);
   font-weight: var(--text-lead-weight);
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+nav ul a:hover {
+  color: var(--color-primary-yellow);
 }
 
 @media screen and (max-width: 912px) {
   nav ul {
     gap: 2.5rem;
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
 }
 
 @media screen and (max-width: 768px) {
   nav ul {
     gap: 2.5rem;
-    margin-top: 6px;
+    /* margin-top: 6px; */
   }
 }
 
@@ -41,7 +50,7 @@ nav ul a {
   }
   nav ul {
     gap: 0.8rem;
-    margin-top: 0;
+    /* margin-top: 0; */
   }
   nav ul a {
     font-weight: var(--display-regular-weight);
@@ -54,7 +63,7 @@ nav ul a {
   }
   nav ul {
     gap: 0.6rem;
-    margin-top: 1px;
+    /* margin-top: 1px; */
   }
   nav ul a {
     font-size: 14px;
@@ -67,7 +76,7 @@ nav ul a {
   }
   nav ul {
     gap: 0.6rem;
-    margin-top: 0;
+    /* margin-top: 0; */
   }
   nav ul a {
     font-weight: var(--display-regular-weight);

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
 footer {
   background-color: var(--color-secondary-light-grey);
 }
@@ -9,13 +10,14 @@ footer {
 }
 
 .footer-container > img {
-  width: 100%;
+  width: 150px;
+  height: 50px;
 }
 
 .menu-footer {
   display: flex;
   gap: 5.5rem;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   margin-bottom: 15px;
 }
 
@@ -44,8 +46,9 @@ footer {
 
 .menu-footer ul {
     color: var(--color-dark);
-    font-family: var(--text-font);
+    font-family: 'Oswald', sans-serif;
     font-size: 12px;
+    align-items: center;
 }
 
 

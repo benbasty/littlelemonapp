@@ -9,8 +9,8 @@ import avatar2 from '../../assets/avatar2.jpg';
 import avatar3 from '../../assets/avatar3.jpg';
 import avatar4 from '../../assets/avatar4.jpg';
 import {RiStarSFill} from 'react-icons/ri';
-import food1 from '../../assets/restaurantfood1.jpeg';
-import food2 from '../../assets/restaurantfood2.jpeg'
+import food1 from '../../assets/potatoesdish.jpg';
+import food2 from '../../assets/potatoesfood.jpg';
 const main = () => {
   return (
     <main className="">
@@ -113,13 +113,13 @@ const main = () => {
         <section className='about'>
           <div className='about-container container'>
             <div className='about-description'>
-                <h1>Little Lemon</h1>
-                <h5>Chicago</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h1>Patatos</h1>
+                <h5>Bangkok</h5>
+                <p>Patatos Restaurant is a restaurant that helps people connect together through their love of food. Since our modest beginnings in 2000 with a little space in Bangkok's stylish city center location, Patatos Restaurant development has been enlivened with the energy to cook and serve solid, western style takeout and dine-in food services. Our menu highlights things that utilize the sound and fragrant flavors. You are welcome to come and give it a try.</p>
             </div>
             <div className='about-images'>
-                <img src={food1} alt='about-img'/>
                 <img src={food2} alt='about-img'/>
+                <img src={food1} alt='about-img'/>
             </div>
           </div>
         </section>
