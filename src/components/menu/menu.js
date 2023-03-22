@@ -10,7 +10,7 @@ const menu = () => {
     <section className='specials container menu'>
             <div className='specials-header menu-header'>
               <h2>Our Top Menu</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <p>Check our top menu, you get to decide what to choose for breakfast, dinner or brunch. Our large range of favorite dishes are the best choices in town. </p>
               {/* <a href='#online-menu' className='btn'>Online Menu</a> */}
             </div>
             <div className='specials-cards'>

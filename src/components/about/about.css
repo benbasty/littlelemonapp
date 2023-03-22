@@ -10,15 +10,20 @@
 
 .about-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 40% 60%;
     margin-bottom: 3rem;
     gap: 1rem;
 }
-
+/* .about-description {
+    width: 60%;
+} */
 .about-description p {
-    font-size: var(--paragraph-text-size);
+    font-size: 15px;
     font-weight: var(--paragraph-text-weight);
     font-family: var(--text-font);
     line-height: var(--paragraph-line-height);
     color: var(--color-secondary-dark-grey);
+}
+.about-picture img {
+    margin-top: 2rem;
 }
