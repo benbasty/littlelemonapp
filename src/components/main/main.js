@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.css';
 import greeksalad from '../../assets/greeksalad.jpg';
-import bruschetta from '../../assets/bruschetta.jpeg';
+import bruschetta from '../../assets/bruschetta.jpg';
 import lemondessert from '../../assets/lemondessert.jpg'
 import {MdDeliveryDining} from 'react-icons/md';
 import avatar1 from '../../assets/avatar1.jpg';
@@ -9,8 +9,7 @@ import avatar2 from '../../assets/avatar2.jpg';
 import avatar3 from '../../assets/avatar3.jpg';
 import avatar4 from '../../assets/avatar4.jpg';
 import {RiStarSFill} from 'react-icons/ri';
-import food1 from '../../assets/potatoesdish.jpg';
-import food2 from '../../assets/potatoesfood.jpg';
+import food2 from '../../assets/food-about.jpg';
 import { Link } from 'react-router-dom';
 
 const main = () => {
@@ -121,7 +120,6 @@ const main = () => {
             </div>
             <div className='about-images'>
                 <img src={food2} alt='about-img'/>
-                <img src={food1} alt='about-img'/>
             </div>
           </div>
         </section>

@@ -175,26 +175,17 @@
     font-weight: var(--display-regular-weight);
 }
 
-.about-images {
+/* .about-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+} */
 
 .about-images img {
     width: 100%;
     border-radius: 15px;
+    margin-top: 1.5rem;
 }
 
-.about-images img:first-child {
-    position: relative;
-    bottom: -5rem;
-    right: -5rem;
-    z-index: 1;
-}
-
-.about-images img:nth-child(2) {
-    z-index: 2;
-}
 @media screen and (max-width: 1024px) {
     .about-container {
         height: 65vh;

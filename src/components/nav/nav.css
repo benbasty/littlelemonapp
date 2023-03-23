@@ -154,6 +154,9 @@ nav ul a:hover {
   .nav-close {
 		top: 1.1rem;
 	}
+  nav ul a {
+    font-size: 9px;
+  }
 
 }
 
@@ -170,9 +173,16 @@ nav ul a:hover {
   }
 }
 
+@media screen and (max-width:393px) {
+  nav ul a {
+    font-size: 9px;
+  }
+
+}
+
 @media screen and (max-width:375px) {
   nav ul {
-    height: 10%;
+    height: 11%;
   }
   nav ul a {
     font-size: 8px;

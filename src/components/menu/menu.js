@@ -1,6 +1,6 @@
 import React from 'react'
 import greeksalad from '../../assets/greeksalad.jpg';
-import bruschetta from '../../assets/bruschetta.jpeg';
+import bruschetta from '../../assets/bruschetta.jpg';
 import lemondessert from '../../assets/lemondessert.jpg'
 import {MdDeliveryDining} from 'react-icons/md';
 import './menu.css';
