@@ -7,3 +7,15 @@
 /* .login-form {
     margin: 0 auto;
 } */
+
+@media screen and (max-width:540px) {
+    .login-page {
+        padding: 10rem 2rem;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .login-page {
+        padding: 10rem 0;
+    }
+}

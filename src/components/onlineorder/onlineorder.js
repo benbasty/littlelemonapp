@@ -28,7 +28,7 @@ const onlineorder = () => {
           <p>4. Eat and have fun</p>
         </div>
       </div>
-      <h1>Experience The Best food with Little Lemon</h1>
+      <h1>Experience The Best food with Patatos</h1>
       <span className='divider'></span>
       <p>Don't cook or search for foods on the streets. Just order with Little Lemon and we will deliver fresh and tasty food at your home or work place within 30 to 45 min.</p>
     </div>

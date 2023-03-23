@@ -47,3 +47,12 @@
     font-weight: var(--paragraph-text-weight);
     line-height: var(--paragraph-line-height);
 }
+
+@media screen and (max-width:480px) {
+    .onlineorder h1 {
+        text-align: center;
+    }
+    .how-order-online {
+        flex-direction: column;
+    }
+}

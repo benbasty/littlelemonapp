@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../../assets/potatoeslogo.png'
 import './nav.css';
 import { Link } from 'react-router-dom';
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import {FaTimes, FaBars} from 'react-icons/fa';
 
 const Nav = () => {
