@@ -17,12 +17,12 @@ const Nav = () => {
       <nav className='container'>
         <img src={logo} alt='logo'/>
           <ul ref={navRef}>
-              <li><Link to='/patatos'>Home</Link></li>
-              <li><Link to='/patatos/about'>About</Link></li>
-              <li><Link to='/patatos/menu'>Menu</Link></li>
-              <li><Link to='/patatos/booking'>Reservations</Link></li>
-              <li><Link to='/patatos/order-online'>Order Online</Link></li>
-              <li><Link to='/patatos/login'>Login</Link></li>
+              <li><Link to='/littlelemon'>Home</Link></li>
+              <li><Link to='/littlelemon/about'>About</Link></li>
+              <li><Link to='/littlelemon/menu'>Menu</Link></li>
+              <li><Link to='/littlelemon/booking'>Reservations</Link></li>
+              <li><Link to='/littlelemon/order-online'>Order Online</Link></li>
+              <li><Link to='/littlelemon/login'>Login</Link></li>
               <button className='nav-btn nav-close' onClick={showNavbar}>
                 <FaTimes />
               </button>
